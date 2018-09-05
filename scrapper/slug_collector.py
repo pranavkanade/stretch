@@ -4,7 +4,7 @@ from pprint import pprint
 
 INPUT_SLUG_DATA_DIR = './data/slug/'
 OUTPUT_SLUG_DATA_DIR = './data/'
-OUTPUT_SLUG_FILE = 'slugs.json'
+OUTPUT_SLUG_FILE = 'slugs_with_levels.json'
 
 def get_slug_file_paths(slug_data_dir):
     return [os.path.join(slug_data_dir, file)
@@ -17,7 +17,10 @@ def collect_slugs(slug_files_list):
         with open(each_data_file, 'r') as json_data_file:
             data_obj = json.load(json_data_file)
             for each_model in data_obj["models"]:
-                slug_dict[each_model["slug"]] = each_model["name"]
+                slug_dict[each_model["slug"]] = {
+                    "name" : each_model["name"],
+                    "level" : each_model["difficulty_name"]
+                }
     return slug_dict
 
 def write_collected_slugs(slug_dict, slug_data_dir):
