@@ -1,18 +1,29 @@
 # class=challenge-body-html
-# https://www.hackerrank.com/challenges/py-hello-world/problem
+from url_builder import UrlBuilder
 from bs4 import BeautifulSoup
 import urllib.request
-import json
 
-class UrlBuilder():
-    def __init__(self, input_json_file):
-        self.level = None
-        self.input_json_file = input_json_file
-        self.slug_object = None
-        with open(self.input_json_file, 'r') as json_input:
-            self.slug_object = json.load(json_input)
+def grab_problems(slug, url, level):
+    html_doc = urllib.request.urlopen(url).read()
+    soup = BeautifulSoup(html_doc, 'html.parser')
 
-    def get_url_list(self, level=easy):
-        self.level = level
+    challenge_body = soup.find('div', attrs={'class': "challenge-body-html"})
+    difficulty_block = soup.find_all('div',
+                                     attrs={'class': "difficulty-block"})
 
+    problem_text = challenge_body.findAll(['p', 'pre'])
 
+    with open('./data/problems/'+level+'/'+slug+'.txt', 'w') as grabbed_prob:
+        grabbed_prob.writelines(map(str, problem_text))
+        grabbed_prob.write("\n\n")
+        grabbed_prob.write(str(difficulty_block))
+
+urlbuilder = UrlBuilder('./data/slugs_with_levels.json')
+levels = ["Easy", "Hard", "Medium"]
+
+# for level in levels: use last one
+url_dict = urlbuilder.get_url_list(level="Hard")
+
+for slug in url_dict.keys():
+    grab_problems(slug, url_dict[slug], "Hard")
+# grab_problems('py-hello-world', 'https://www.hackerrank.com/challenges/py-hello-world/problem')
