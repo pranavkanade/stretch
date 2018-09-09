@@ -1,0 +1,462 @@
+{
+    "py-hello-world": {
+        "name": "Say \"Hello, World!\" With Python",
+        "level": "Easy"
+    },
+    "py-if-else": {
+        "name": "Python If-Else",
+        "level": "Easy"
+    },
+    "python-arithmetic-operators": {
+        "name": "Arithmetic Operators",
+        "level": "Easy"
+    },
+    "python-division": {
+        "name": "Python: Division",
+        "level": "Easy"
+    },
+    "python-loops": {
+        "name": "Loops",
+        "level": "Easy"
+    },
+    "python-print": {
+        "name": "Print Function",
+        "level": "Easy"
+    },
+    "list-comprehensions": {
+        "name": "List Comprehensions",
+        "level": "Easy"
+    },
+    "find-second-maximum-number-in-a-list": {
+        "name": "Find the Runner-Up Score!  ",
+        "level": "Easy"
+    },
+    "nested-list": {
+        "name": "Nested Lists",
+        "level": "Easy"
+    },
+    "finding-the-percentage": {
+        "name": "Finding the percentage",
+        "level": "Easy"
+    },
+    "python-lists": {
+        "name": "Lists",
+        "level": "Easy"
+    },
+    "python-tuples": {
+        "name": "Tuples ",
+        "level": "Easy"
+    },
+    "swap-case": {
+        "name": "sWAP cASE",
+        "level": "Easy"
+    },
+    "python-string-split-and-join": {
+        "name": "String Split and Join",
+        "level": "Easy"
+    },
+    "whats-your-name": {
+        "name": "What's Your Name?",
+        "level": "Easy"
+    },
+    "python-mutations": {
+        "name": "Mutations",
+        "level": "Easy"
+    },
+    "find-a-string": {
+        "name": "Find a string",
+        "level": "Easy"
+    },
+    "string-validators": {
+        "name": "String Validators",
+        "level": "Easy"
+    },
+    "text-alignment": {
+        "name": "Text Alignment",
+        "level": "Easy"
+    },
+    "text-wrap": {
+        "name": "Text Wrap",
+        "level": "Easy"
+    },
+    "designer-door-mat": {
+        "name": "Designer Door Mat",
+        "level": "Easy"
+    },
+    "python-string-formatting": {
+        "name": "String Formatting",
+        "level": "Easy"
+    },
+    "alphabet-rangoli": {
+        "name": "Alphabet Rangoli",
+        "level": "Easy"
+    },
+    "capitalize": {
+        "name": "Capitalize!",
+        "level": "Easy"
+    },
+    "itertools-product": {
+        "name": "itertools.product()",
+        "level": "Easy"
+    },
+    "collections-counter": {
+        "name": "collections.Counter()",
+        "level": "Easy"
+    },
+    "itertools-permutations": {
+        "name": "itertools.permutations()",
+        "level": "Easy"
+    },
+    "polar-coordinates": {
+        "name": "Polar Coordinates",
+        "level": "Easy"
+    },
+    "py-introduction-to-sets": {
+        "name": "Introduction to Sets",
+        "level": "Easy"
+    },
+    "calendar-module": {
+        "name": "Calendar Module",
+        "level": "Easy"
+    },
+    "defaultdict-tutorial": {
+        "name": "DefaultDict Tutorial",
+        "level": "Easy"
+    },
+    "exceptions": {
+        "name": "Exceptions",
+        "level": "Easy"
+    },
+    "py-collections-namedtuple": {
+        "name": "Collections.namedtuple()",
+        "level": "Easy"
+    },
+    "py-collections-ordereddict": {
+        "name": "Collections.OrderedDict()",
+        "level": "Easy"
+    },
+    "symmetric-difference": {
+        "name": "Symmetric Difference",
+        "level": "Easy"
+    },
+    "itertools-combinations": {
+        "name": "itertools.combinations()",
+        "level": "Easy"
+    },
+    "incorrect-regex": {
+        "name": "Incorrect Regex",
+        "level": "Easy"
+    },
+    "py-set-add": {
+        "name": "Set .add() ",
+        "level": "Easy"
+    },
+    "itertools-combinations-with-replacement": {
+        "name": "itertools.combinations_with_replacement()",
+        "level": "Easy"
+    },
+    "py-set-discard-remove-pop": {
+        "name": "Set .discard(), .remove() & .pop()",
+        "level": "Easy"
+    },
+    "py-collections-deque": {
+        "name": "Collections.deque()",
+        "level": "Easy"
+    },
+    "py-set-union": {
+        "name": "Set .union() Operation",
+        "level": "Easy"
+    },
+    "py-set-intersection-operation": {
+        "name": "Set .intersection() Operation",
+        "level": "Easy"
+    },
+    "python-mod-divmod": {
+        "name": "Mod Divmod",
+        "level": "Easy"
+    },
+    "python-power-mod-power": {
+        "name": "Power - Mod Power",
+        "level": "Easy"
+    },
+    "py-set-difference-operation": {
+        "name": "Set .difference() Operation",
+        "level": "Easy"
+    },
+    "python-integers-come-in-all-sizes": {
+        "name": "Integers Come In All Sizes",
+        "level": "Easy"
+    },
+    "py-set-symmetric-difference-operation": {
+        "name": "Set .symmetric_difference() Operation",
+        "level": "Easy"
+    },
+    "py-set-mutations": {
+        "name": "Set Mutations",
+        "level": "Easy"
+    },
+    "py-the-captains-room": {
+        "name": "The Captain's Room ",
+        "level": "Easy"
+    },
+    "py-check-subset": {
+        "name": "Check Subset",
+        "level": "Easy"
+    },
+    "py-check-strict-superset": {
+        "name": "Check Strict Superset",
+        "level": "Easy"
+    },
+    "class-2-find-the-torsional-angle": {
+        "name": "Class 2 - Find the Torsional Angle",
+        "level": "Easy"
+    },
+    "zipped": {
+        "name": "Zipped!",
+        "level": "Easy"
+    },
+    "input": {
+        "name": "Input()",
+        "level": "Easy"
+    },
+    "python-eval": {
+        "name": "Python Evaluation",
+        "level": "Easy"
+    },
+    "any-or-all": {
+        "name": "Any or All",
+        "level": "Easy"
+    },
+    "introduction-to-regex": {
+        "name": "Detect Floating Point Number",
+        "level": "Easy"
+    },
+    "map-and-lambda-expression": {
+        "name": "Map and Lambda Function",
+        "level": "Easy"
+    },
+    "re-split": {
+        "name": "Re.split()",
+        "level": "Easy"
+    },
+    "re-group-groups": {
+        "name": "Group(), Groups() & Groupdict()",
+        "level": "Easy"
+    },
+    "re-findall-re-finditer": {
+        "name": "Re.findall() & Re.finditer()",
+        "level": "Easy"
+    },
+    "re-start-re-end": {
+        "name": "Re.start() & Re.end()",
+        "level": "Easy"
+    },
+    "validate-a-roman-number": {
+        "name": "Validating Roman Numerals",
+        "level": "Easy"
+    },
+    "validating-the-phone-number": {
+        "name": "Validating phone numbers",
+        "level": "Easy"
+    },
+    "validating-named-email-addresses": {
+        "name": "Validating and Parsing Email Addresses",
+        "level": "Easy"
+    },
+    "hex-color-code": {
+        "name": "Hex Color Code",
+        "level": "Easy"
+    },
+    "html-parser-part-1": {
+        "name": "HTML Parser - Part 1",
+        "level": "Easy"
+    },
+    "html-parser-part-2": {
+        "name": "HTML Parser - Part 2",
+        "level": "Easy"
+    },
+    "detect-html-tags-attributes-and-attribute-values": {
+        "name": "Detect HTML Tags, Attributes and Attribute Values",
+        "level": "Easy"
+    },
+    "xml-1-find-the-score": {
+        "name": "XML 1 - Find the Score",
+        "level": "Easy"
+    },
+    "validating-uid": {
+        "name": "Validating UID ",
+        "level": "Easy"
+    },
+    "xml2-find-the-maximum-depth": {
+        "name": "XML2 - Find the Maximum Depth",
+        "level": "Easy"
+    },
+    "standardize-mobile-number-using-decorators": {
+        "name": "Standardize Mobile Number Using Decorators",
+        "level": "Easy"
+    },
+    "decorators-2-name-directory": {
+        "name": "Decorators 2 - Name Directory",
+        "level": "Easy"
+    },
+    "np-arrays": {
+        "name": "Arrays",
+        "level": "Easy"
+    },
+    "np-shape-reshape": {
+        "name": "Shape and Reshape",
+        "level": "Easy"
+    },
+    "np-transpose-and-flatten": {
+        "name": "Transpose and Flatten",
+        "level": "Easy"
+    },
+    "np-concatenate": {
+        "name": "Concatenate",
+        "level": "Easy"
+    },
+    "np-zeros-and-ones": {
+        "name": "Zeros and Ones",
+        "level": "Easy"
+    },
+    "np-eye-and-identity": {
+        "name": "Eye and Identity",
+        "level": "Easy"
+    },
+    "np-array-mathematics": {
+        "name": "Array Mathematics",
+        "level": "Easy"
+    },
+    "floor-ceil-and-rint": {
+        "name": "Floor, Ceil and Rint",
+        "level": "Easy"
+    },
+    "np-sum-and-prod": {
+        "name": "Sum and Prod",
+        "level": "Easy"
+    },
+    "np-min-and-max": {
+        "name": "Min and Max",
+        "level": "Easy"
+    },
+    "np-mean-var-and-std": {
+        "name": "Mean, Var, and Std",
+        "level": "Easy"
+    },
+    "np-dot-and-cross": {
+        "name": "Dot and Cross",
+        "level": "Easy"
+    },
+    "np-inner-and-outer": {
+        "name": "Inner and Outer",
+        "level": "Easy"
+    },
+    "np-polynomials": {
+        "name": "Polynomials",
+        "level": "Easy"
+    },
+    "np-linear-algebra": {
+        "name": "Linear Algebra",
+        "level": "Easy"
+    },
+    "maximize-it": {
+        "name": "Maximize It!",
+        "level": "Hard"
+    },
+    "validating-postalcode": {
+        "name": "Validating Postal Codes",
+        "level": "Hard"
+    },
+    "matrix-script": {
+        "name": "Matrix Script",
+        "level": "Hard"
+    },
+    "write-a-function": {
+        "name": "Write a function",
+        "level": "Medium"
+    },
+    "the-minion-game": {
+        "name": "The Minion Game",
+        "level": "Medium"
+    },
+    "merge-the-tools": {
+        "name": "Merge the Tools!",
+        "level": "Medium"
+    },
+    "python-time-delta": {
+        "name": "Time Delta",
+        "level": "Medium"
+    },
+    "find-angle": {
+        "name": "Find Angle MBC",
+        "level": "Medium"
+    },
+    "no-idea": {
+        "name": "No Idea!",
+        "level": "Medium"
+    },
+    "word-order": {
+        "name": "Word Order",
+        "level": "Medium"
+    },
+    "compress-the-string": {
+        "name": "Compress the String! ",
+        "level": "Medium"
+    },
+    "most-commons": {
+        "name": "Company Logo",
+        "level": "Medium"
+    },
+    "piling-up": {
+        "name": "Piling Up!",
+        "level": "Medium"
+    },
+    "triangle-quest-2": {
+        "name": "Triangle Quest 2",
+        "level": "Medium"
+    },
+    "iterables-and-iterators": {
+        "name": "Iterables and Iterators",
+        "level": "Medium"
+    },
+    "python-quest-1": {
+        "name": "Triangle Quest",
+        "level": "Medium"
+    },
+    "class-1-dealing-with-complex-numbers": {
+        "name": "Classes: Dealing with Complex Numbers",
+        "level": "Medium"
+    },
+    "python-sort-sort": {
+        "name": "Athlete Sort",
+        "level": "Medium"
+    },
+    "ginorts": {
+        "name": "ginortS",
+        "level": "Medium"
+    },
+    "validate-list-of-email-address-with-filter": {
+        "name": "Validating Email Addresses With a Filter ",
+        "level": "Medium"
+    },
+    "reduce-function": {
+        "name": "Reduce Function",
+        "level": "Medium"
+    },
+    "re-sub-regex-substitution": {
+        "name": "Regex Substitution",
+        "level": "Medium"
+    },
+    "validating-credit-card-number": {
+        "name": "Validating Credit Card Numbers",
+        "level": "Medium"
+    },
+    "words-score": {
+        "name": "Words Score",
+        "level": "Medium"
+    },
+    "default-arguments": {
+        "name": "Default Arguments",
+        "level": "Medium"
+    }
+}
