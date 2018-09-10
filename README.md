@@ -11,3 +11,4 @@
 |Sr. No | Date | Details |
 |-------|------|---------|
 | 1 | 30 Aug, 2018 | Added daily notes taken as part of the research. Also added notes for Docker. |
+| 2 | 9 Sept, 2018 | Added scrapper to collect data from hackerrank |
